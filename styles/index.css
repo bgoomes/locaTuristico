@@ -155,3 +155,11 @@ footer {
     font-family: "Open Sans";
     line-height: 150%;
 }
+
+ul li:nth-child(2){
+    color: #e1624f;
+}
+
+ul li:nth-child(3){
+    color: #e39a8e;
+}
