@@ -1,0 +1,157 @@
+:root {
+    --text-primary: #1B1B1B;
+    --text-headline: #e1624f;
+    --text-secundary: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.app {
+   padding-top: 88px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title span {
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color:  var(--text-headline);
+}
+
+.title h1{
+    color: var(--text-primary);
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p{
+    color: var(--text-secundary);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.box-img {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.box-img p{
+    color:  var(--text-secundary);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.divisor {
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.alinhaBox {
+    display:  flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.interno h3 {
+    color:  var(--text-primary);
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.interno p {
+    color: var(--text-secundary);
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.interno span {
+    color: var(--text-secundary);
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.interno ul{
+    padding-left: 20px;
+}
+
+.interno ul li{
+    color: #0c51a7;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+ul li::marker {
+    color: #333333;
+}
+
+footer {
+    width: 1120px;
+    margin: 40px  auto
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    color: var(--text-secundary);
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer span{
+    color: var(--text-secundary);
+    font-size: 16px;
+    font-family: "Open Sans";
+    line-height: 150%;
+}
